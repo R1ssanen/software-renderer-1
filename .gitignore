@@ -1,4 +1,4 @@
-core/build/*
+corelib/build/*
 testing/build/*
 .cache/
 
