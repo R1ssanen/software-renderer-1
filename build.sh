@@ -1,7 +1,7 @@
-#! bin/bash
+#!/bin/bash
 
-cmake -DCMAKE_BUILD_TYPE=Release -DTERM_COLORS=OFF -GNinja -S corelib/ -B corelib/build/
-cmake --build corelib/build/
+cmake -DTERM_COLORS=ON -GNinja -B build/
+cmake --build build/
 
-cmake -DCMAKE_BUILD_TYPE=Release -GNinja -S testing/ -B testing/build/
-cmake --build testing/build/
+sandbox/shaders/build_shaders.sh sandbox/shaders
+

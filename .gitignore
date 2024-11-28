@@ -1,4 +1,3 @@
-corelib/build/*
-testing/build/*
+build/
 .cache/
-
+*.so

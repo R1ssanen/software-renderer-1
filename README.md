@@ -1,2 +1,3 @@
-# software-renderer-1
-Testing high performance SIMD software rendering via SDL2 and x86 intrinsics.
+# rohan
+
+Rohan - high performance SIMD accelerated, software 3D rendering library.
